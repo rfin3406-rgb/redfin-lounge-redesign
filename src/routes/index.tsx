@@ -249,24 +249,22 @@ function Home() {
         <div className="hairline-gold mt-6 w-40" />
 
         <div className="mt-14 space-y-14">
-          {reasons.map((r, i) => (
-            <article
-              key={r.no}
-              className={`grid items-center gap-8 lg:grid-cols-2 ${
-                i % 2 === 1 ? "lg:[&>figure]:order-2" : ""
-              }`}
-            >
-              <figure className="overflow-hidden border border-border">
+          {reasons.map((r) => (
+            <article key={r.no} className="grid gap-8 lg:grid-cols-2 lg:items-stretch">
+              <figure className="group relative overflow-hidden border border-border">
                 <img
                   src={r.img}
                   alt={r.alt}
                   loading="lazy"
-                  className="aspect-16/10 w-full object-cover transition-transform duration-700 hover:scale-105"
+                  className="h-full min-h-[18rem] w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/10 to-transparent" />
+                <span className="font-display absolute left-5 top-3 text-7xl leading-none text-foreground drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)] sm:text-8xl">
+                  {r.no}
+                </span>
               </figure>
-              <div>
-                <span className="font-display text-5xl text-primary">{r.no}</span>
-                <h3 className="mt-3 text-3xl sm:text-4xl">{t(r.title)}</h3>
+              <div className="flex flex-col justify-center">
+                <h3 className="text-3xl sm:text-4xl">{t(r.title)}</h3>
                 <p className="mt-4 leading-relaxed text-muted-foreground">{t(r.body)}</p>
               </div>
             </article>
