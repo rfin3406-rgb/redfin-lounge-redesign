@@ -69,7 +69,7 @@ const reasons: { img: string; alt: string; no: string; title: Copy; body: Copy }
   {
     img: steakAsset.url,
     alt: "Matsusaka wagyu steak on a black plate",
-    no: "01",
+    no: "\n",
     title: { en: "Premium Steak Experience", mn: "Дээд зэрглийн стейкийн туршлага" },
     body: {
       en: "Matsusaka Wagyu, Tomahawk and other premium cuts, grilled exactly as you like them.",
@@ -79,7 +79,7 @@ const reasons: { img: string; alt: string; no: string; title: Copy; body: Copy }
   {
     img: kitchenAsset.url,
     alt: "Chefs at work in the Redfin kitchen",
-    no: "02",
+    no: "\n",
     title: { en: "Japanese × European Cuisine", mn: "Япон × Европ хоол" },
     body: {
       en: "Two kitchens, one table — sushi and tempura beside classic European plates.",
@@ -89,7 +89,7 @@ const reasons: { img: string; alt: string; no: string; title: Copy; body: Copy }
   {
     img: agedAsset.url,
     alt: "Dry-aged beef in the ageing room",
-    no: "03",
+    no: "\n",
     title: { en: "Signature Dry-Aged Beef", mn: "Онцлох хуурай боловсруулсан үхрийн мах" },
     body: {
       en: "Aged in-house for 28 days, then smoked over apple and cherry wood.",
@@ -99,7 +99,7 @@ const reasons: { img: string; alt: string; no: string; title: Copy; body: Copy }
   {
     img: platterAsset.url,
     alt: "Japanese tasting tray with sushi and tempura",
-    no: "04",
+    no: "\n",
     title: { en: "The Perfect Lounge Experience", mn: "Төгс лаунжийн туршлага" },
     body: {
       en: "Small plates, rare bottles and a room designed to keep you for one more round.",
@@ -109,7 +109,7 @@ const reasons: { img: string; alt: string; no: string; title: Copy; body: Copy }
   {
     img: cocktailAsset.url,
     alt: "Signature cocktail with mint garnish",
-    no: "05",
+    no: "\n",
     title: { en: "Made for Every Occasion", mn: "Аливаа арга хэмжээнд тохирно" },
     body: {
       en: "Up to 100 seated, 200 standing, two VIP rooms and a separate smoking lounge.",
