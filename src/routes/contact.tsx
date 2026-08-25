@@ -87,7 +87,7 @@ function Contact() {
           <div className="aspect-square w-full overflow-hidden border border-border">
             <iframe
               title="Map to Redfin Seafood & Grill Lounge"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=106.905%2C47.910%2C106.930%2C47.925&layer=mapnik"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=106.9086%2C47.9096%2C106.9326%2C47.9216&layer=mapnik&marker=47.9156%2C106.9206"
               className="size-full opacity-85 grayscale"
               loading="lazy"
             />
